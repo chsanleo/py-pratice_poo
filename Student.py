@@ -4,7 +4,7 @@ class Student():
     surname = ""
     dni = ""
     years_old = 0
-    score = 0
+    subject = []
 
     # Constructor
     def __init__ (self, name, surname, dni, years_old):
@@ -20,6 +20,5 @@ class Student():
     def birthday (self):
         self.years_old +=1
 
-    def add_score (self, score):
-        if(score >= 0 and score <= 10):
-            self.score = score
+    def add_subject(self, subject):
+        self.subject.append(subject)

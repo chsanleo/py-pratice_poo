@@ -23,3 +23,16 @@ class Student():
     def add_score (self, score):
         if(score >= 0 and score <= 10):
             self.score = score
+
+
+
+class Class():
+    students = []
+
+    def show_students(self):
+        for student in self.students:
+            print (student.name)
+
+    def add_student(self, student):
+        self.students.append(student)
+        

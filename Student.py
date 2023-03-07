@@ -6,6 +6,13 @@ class Student():
     years_old = 0
     score = 0
 
+    # Constructor
+    def __init__ (self, name, surname, dni, years_old):
+        self.name = name
+        self.surname = surname
+        self.dni = dni
+        self.years_old = years_old
+
     # Methods
     def saludar (self):
         print(f"Hola, me llamo {self.name}")

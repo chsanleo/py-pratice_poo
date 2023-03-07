@@ -1,7 +1,7 @@
 # py-pratice_poo
 
-KATA I: Evaluacion de Alumnos
- Vamos a desarrollar un programa donde nos facilite la evaluación de los alumnos. Para ello vamos a susar un POO.
+**KATA I:** Evaluacion de Alumnos
+ Vamos a desarrollar un programa donde nos facilite la evaluación de los alumnos. Para ello vamos a usar un POO.
 
 Alumno:
     Propiedades:

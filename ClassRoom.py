@@ -1,5 +1,3 @@
-from Student import Student
-
 class ClassRoom():
     students = []
 

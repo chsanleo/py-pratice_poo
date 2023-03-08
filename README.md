@@ -34,3 +34,16 @@ Alumno(modificación):
     Metodos:
     - Añadir Asignaturas
     - Eliminar Asignaturas
+
+**KATA III**: Clase
+ Usando la Kata anterior, camos a crear una clase llamada "Clase" donde crearemos la estructura de una clase con su profesor, alumnos y asignaturas con las mejores practicas posibles.
+
+Clase:
+    Propiedades:
+    - Profesor
+    - Alumnos
+    - Asignaturas
+
+    Metodos:
+    - Añadir/Borrar Alumnos
+    - Aádir/Borrar Asignatura

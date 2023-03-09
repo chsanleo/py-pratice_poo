@@ -60,3 +60,6 @@ Asignatura:
 
 Alumno:
     - dni(solo getter)
+
+**KATA V**: Usuario/Profesor
+Usando la Kata anterior, genera la clase Ususario y usa la herencia para que desde Usuario se cree Alumno y Profesor, reutilizando todo lo que veas oportuno

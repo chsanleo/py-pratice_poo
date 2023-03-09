@@ -3,19 +3,26 @@ from Subject import Subject
 
 class ClassRoom():
     
+    __id = 0
     teacher = None # Empty object
     students = []
     subjects = []
 
+
     def __init__(self, studentsNames, subjectsNames) -> None:
-        self.add_studentsNameList(studentsNames)
-        self.add_subjectsNameList(subjectsNames)
+        self.__add_studentsNameList(studentsNames)
+        self.__add_subjectsNameList(subjectsNames)
 
 
+    @property
+    def id (self):
+        return self.__id
+    
+    
     def add_subject(self, subject) -> None:
         self.subjects.append(subject)
 
-    def add_subjectsNameList(self, subjectsNames):
+    def __add_subjectsNameList(self, subjectsNames):
         for name in subjectsNames:
             new_subject = Subject(name)
             self.add_subject(new_subject)
@@ -28,7 +35,7 @@ class ClassRoom():
         if (student.years_old >= 18):
             self.students.append(student)
 
-    def add_studentsNameList(self, studentsNames):
+    def __add_studentsNameList(self, studentsNames):
         for name in studentsNames:
             new_student = Student(name, "", "", 18)
             self.add_student(new_student)

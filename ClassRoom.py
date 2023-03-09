@@ -1,5 +1,6 @@
 from Student import Student
 from Subject import Subject
+from Teacher import Teacher
 
 class ClassRoom():
     
@@ -9,7 +10,8 @@ class ClassRoom():
     subjects = []
 
 
-    def __init__(self, studentsNames, subjectsNames) -> None:
+    def __init__(self, teacher, studentsNames, subjectsNames) -> None:
+        self.teacher = teacher
         self.__add_studentsNameList(studentsNames)
         self.__add_subjectsNameList(subjectsNames)
 

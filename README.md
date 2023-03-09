@@ -63,3 +63,10 @@ Alumno:
 
 **KATA V**: Usuario/Profesor
 Usando la Kata anterior, genera la clase Ususario y usa la herencia para que desde Usuario se cree Alumno y Profesor, reutilizando todo lo que veas oportuno
+
+**KATA VI:** Encapsulando
+Vamos a generar un programa de clasificacion de animales. Para ello partiremos de una clase llamada animal, que luego se usará para crear León y Perro
+
+Las propiedades seran, especie, peso, altura y los metodos como comer, cazar o dormir
+
+Perro como es un animal docmestico, tambien heredada de una clase Mascota, donde tendra acceso a un nombre y trucos como sentarse y tumbarse

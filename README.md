@@ -47,3 +47,16 @@ Clase:
     Metodos:
     - Añadir/Borrar Alumnos
     - Aádir/Borrar Asignatura
+
+**KATA IV**: Encapsulando
+Usando la Jata anterior, vamos a poner en privado los siguientes metodos y propiedades
+
+Clase:
+    - id(solo getter)
+
+Asignatura:
+    - id(solo getter)
+    - nota(getter/setter)
+
+Alumno:
+    - dni(solo getter)
